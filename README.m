@@ -41,6 +41,9 @@
 % information about the experiment and the complete time series of images
 % (making this structure large and time-consuming to load).
 
+% NOTE: you need the bfopen function on the path (BioFormats package) to
+% open the Olympus files.
+
 % STEP 3: Run FRAP_dataset_190513.m
 % This script combines many individual experiments and creates the
 % information necessary for a Fourier series fit.  I've kept the folder

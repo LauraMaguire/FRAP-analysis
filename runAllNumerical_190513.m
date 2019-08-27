@@ -1,9 +1,9 @@
 % after running FRAP_processing_190513, run this script to generate the
 % Fourier series fit string and fit the recovery curves
 
-nTerms = 2;
+nTerms = 20;
 
-for n=1%:length(data)
+for n=21%:length(data)
     
     [data{n}.x,data{n}.y] = findCenter(data{n}.gelMask);
     
